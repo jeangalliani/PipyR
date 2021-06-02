@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PipyR", "PipyR\PipyR.csproj", "{67060BDC-80CE-4112-9D14-9B8B43B41E32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipyR.DependencyInjection", "PipyR.DependencyInjection\PipyR.DependencyInjection.csproj", "{6CDA9070-BE84-4BBF-ACE8-7E16AEB07C46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{3A555122-382E-4F86-BF78-918870CB1564}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipyR.Samples.ConsoleApp", "PipyR.Samples.ConsoleApp\PipyR.Samples.ConsoleApp.csproj", "{16178CF1-2D9C-4031-979A-A4B15BE24B78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67060BDC-80CE-4112-9D14-9B8B43B41E32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67060BDC-80CE-4112-9D14-9B8B43B41E32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67060BDC-80CE-4112-9D14-9B8B43B41E32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67060BDC-80CE-4112-9D14-9B8B43B41E32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CDA9070-BE84-4BBF-ACE8-7E16AEB07C46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CDA9070-BE84-4BBF-ACE8-7E16AEB07C46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CDA9070-BE84-4BBF-ACE8-7E16AEB07C46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CDA9070-BE84-4BBF-ACE8-7E16AEB07C46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16178CF1-2D9C-4031-979A-A4B15BE24B78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16178CF1-2D9C-4031-979A-A4B15BE24B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16178CF1-2D9C-4031-979A-A4B15BE24B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16178CF1-2D9C-4031-979A-A4B15BE24B78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{16178CF1-2D9C-4031-979A-A4B15BE24B78} = {3A555122-382E-4F86-BF78-918870CB1564}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E7931A5-FDD0-445E-809D-87A1A7D3C1E0}
+	EndGlobalSection
+EndGlobal
